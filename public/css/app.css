@@ -17664,6 +17664,7 @@ header nav > div > ul > li {
   width: 100%;
   flex-direction: column;
   height: 1500px;
+  margin-bottom: 2%;
 }
 .menu .premiereBoite {
   height: 500px;
@@ -17699,6 +17700,37 @@ footer {
   align-items: center;
   background-color: #363e50;
   color: white;
+}
+
+.prefooter {
+  background-image: url(../../../public/img/book-bg.jpg);
+  height: 500px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.prefooter .book {
+  color: white;
+  text-align: center;
+}
+.prefooter .boiteFormulaire {
+  display: flex;
+  flex-direction: row;
+  height: 300px;
+  width: 60%;
+}
+.prefooter .boiteFormulaire .imgFormulaire {
+  background-image: url(../../../public/img/book_left_image.jpg);
+  height: 300px;
+  width: 50%;
+  background-size: cover;
+}
+.prefooter .boiteFormulaire .formulaire {
+  background-color: white;
+  height: 300px;
+  width: 50%;
 }
 
 /*# sourceMappingURL=app.css.map */
