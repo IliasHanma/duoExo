@@ -1,0 +1,40 @@
+.menu{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+    height: 1500px;
+    margin-bottom: 2%;
+    
+
+    .premiereBoite{
+        height: 500px;
+        width: 45%;
+        display: flex;
+        flex-direction: row;
+        margin-top: 3%;
+   
+        .imgBoite{
+            width: 30%;
+            background-image: url(../../../public/img/breakfast_menu.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .cardBoite{
+            display: flex;
+            justify-content: space-evenly;
+            flex-direction: row;
+            width: 70%;
+            background-color: MENU;
+            align-items: center;
+
+            .card{
+                border: 0px;
+            }
+        }
+    }
+
+
+}

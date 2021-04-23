@@ -1,0 +1,35 @@
+.prefooter{
+    background-image: url(../../../public/img/book-bg.jpg);
+    height: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    .book{
+        color: white;
+        text-align: center;
+    
+    }
+
+    .boiteFormulaire{
+        display: flex;
+        flex-direction: row;
+        height: 300px;
+        width: 60%;
+
+        .imgFormulaire{
+            background-image: url(../../../public/img/book_left_image.jpg);
+            height: 300px;
+            width: 50%;
+            background-size: cover;
+        }
+
+        .formulaire{
+            background-color: white;
+            height: 300px;
+            width: 50%;
+        }
+    }
+}
