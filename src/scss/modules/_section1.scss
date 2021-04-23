@@ -1,15 +1,23 @@
 .section1{
 
-         background-image: url(../../../public/img/banner-bg.jpg);
+          background-image: url(../../../public/img/banner-bg.jpg);
           background-repeat: no-repeat;
           background-position: center;
           background-size: cover;
           height: 600px;
+          
 
           #text-bg-img{
                h1{
                    font-size: 50px;
                }
+
+               input{
+                   height: 50px;
+                   width: 25%;
+                   background-color:#d84f4f ;
+                   border-radius: 3%;
+             }
               
           }
          
